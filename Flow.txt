@@ -1,0 +1,8 @@
+##################################
+######### CHAPTER 2 ##############
+##################################
+### Create Project ###
+dotnet new globaljson --sdk-version 7.0 --output FirstProject
+dotnet new mvc --no-https --output FirstProject --framework net7.0
+
+
