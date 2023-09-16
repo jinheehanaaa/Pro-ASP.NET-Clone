@@ -7,3 +7,13 @@ dotnet new mvc --no-https --output FirstProject --framework net7.0
 
 
 
+
+##################################
+######### CHAPTER 3 ##############
+##################################
+### Create Project ###
+dotnet new globaljson --sdk-version 7.0 --output PartyInvites
+dotnet new mvc --no-https --output PartyInvites --framework net7.0
+
+
+
