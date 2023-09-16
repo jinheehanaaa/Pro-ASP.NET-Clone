@@ -15,5 +15,8 @@ dotnet new mvc --no-https --output FirstProject --framework net7.0
 dotnet new globaljson --sdk-version 7.0 --output PartyInvites
 dotnet new mvc --no-https --output PartyInvites --framework net7.0
 
+### nullable bool ###
+- Can be true, false or null
+
 
 
