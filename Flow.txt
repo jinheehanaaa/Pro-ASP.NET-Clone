@@ -17,6 +17,3 @@ dotnet new mvc --no-https --output PartyInvites --framework net7.0
 
 ### nullable bool ###
 - Can be true, false or null
-
-
-
