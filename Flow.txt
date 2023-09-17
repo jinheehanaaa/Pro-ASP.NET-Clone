@@ -5,9 +5,6 @@
 dotnet new globaljson --sdk-version 7.0 --output FirstProject
 dotnet new mvc --no-https --output FirstProject --framework net7.0
 
-
-
-
 ##################################
 ######### CHAPTER 3 ##############
 ##################################
@@ -17,3 +14,11 @@ dotnet new mvc --no-https --output PartyInvites --framework net7.0
 
 ### nullable bool ###
 - Can be true, false or null
+
+### in-memory collection of objects ###
+- Repository.cs
+
+### Model Binding ###
+- HomeController.cs
+- RsvpForm function이 불리우기 전에 GuestResponse object에 HTML form을 준 후, 
+- RsvpForm function이 불리울 때 Repository.AddResponse method의 argument로 사용될 수 있다.
